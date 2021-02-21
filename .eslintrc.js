@@ -8,7 +8,6 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:jest/recommended',
     'plugin:prettier/recommended',
-    'plugin:react/recommended',
     'prettier/@typescript-eslint',
   ],
   parser: '@typescript-eslint/parser',
@@ -19,7 +18,7 @@ module.exports = {
       jsx: true,
     },
   },
-  plugins: ['@typescript-eslint', 'jest', 'prettier', 'react'],
+  plugins: ['@typescript-eslint', 'jest', 'prettier'],
   rules: {
     '@typescript-eslint/explicit-function-return-type': 'error',
     '@typescript-eslint/interface-name-prefix': 'off',
@@ -42,9 +41,6 @@ module.exports = {
     'spaced-comment': ['error', 'always', { exceptions: ['*'] }],
   },
   settings: {
-    'import/resolver': { node: { extensions: ['.js', '.ts', '.tsx'] } },
-    react: {
-      version: 'detect',
-    },
+    'import/resolver': { node: { extensions: ['.js', '.ts', '.tsx', 'json'] } },
   },
 };

@@ -18,6 +18,7 @@
     "forceConsistentCasingInFileNames": true,
     "pretty": true,
     "allowJs": false,
+    "resolveJsonModule": true,
     "sourceMap": true,
     "baseUrl": ".",
     "paths": {
