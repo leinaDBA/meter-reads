@@ -23,8 +23,7 @@
     "postversion": "git push --no-verify && git push --tags --no-verify"
   },
   "repository": {
-    "type": "git",
-    "url": "https://github.com/leinaDBA/meter-reads.git"
+    "type": "git"
   },
   "keywords": [],
   "author": "",
