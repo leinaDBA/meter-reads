@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "module": "commonjs",
+    "declaration": true,
+    "outDir": "dist",
+    "rootDir": "./src",
+    "strict": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "pretty": true,
+    "allowJs": false,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "paths": {
+      "*": ["./types/*"]
+    },
+    "types": [
+      "jest",
+      "node",
+      "react",
+      "react-dom",
+      "sinon"
+    ],
+    "jsx": "react"
+  },
+  "exclude": ["bin","dist","types"]
+}
